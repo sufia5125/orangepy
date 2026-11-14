@@ -1,4 +1,7 @@
 # orangepy
+
+[pypi.org/orangepy](https://pypi.org/project/orangepy/)
+
 A lightweight health checker for numpy arrays. 
 
 Orangepy inspects numeric and boolean arrays and reports patterns like missing values, infinities, constant columns, and duplicate rows.
