@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "orangepy"
+version = "0.1.0"
+description = "A lightweight health checker for NumPy arrays"
+readme = "README.md"
+author = "@sufia5125"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "build",
+    "twine",
+]
+
+[project.scripts]
+orangepy = "orangepy.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

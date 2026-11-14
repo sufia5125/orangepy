@@ -1,0 +1,5 @@
+/.venv
+/dist
+__pycache__
+src/orangepy.egg-info
+/.pytest_cache
