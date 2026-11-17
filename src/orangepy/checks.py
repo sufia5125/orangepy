@@ -3,7 +3,7 @@ from numpy.typing import ArrayLike
 from orangepy.report import ArrayReport
 
 def inspect(array :ArrayLike) -> ArrayReport:
-    """insepct without modifying the array"""
+    """inspect without modifying the array"""
     data = np.asarray(array)
     is_numeric = (
         np.issubdtype(data.dtype, np.number)
